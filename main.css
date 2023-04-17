@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--color-white);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+header {
+    background-color: var(--color-dark4);
+}
+
+#header button{
+    background-color: var(--color-white)
+}
+
+.carousel img {
+    height: 38em;
+}
+
+body {
+    background-image: url(./imagem/brasao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card  {
+    margin: 2px;
+    height: 35em;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--color-purple);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    .container {
+        width: 90%;
+    }
+
+    .carousel img {
+        height: 20em;
+    }
+}
